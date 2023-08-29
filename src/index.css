@@ -1,0 +1,12 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    font-family: "JetBrains Mono";
+  }
+  body {
+    @apply bg-slate-200;
+  }
+}
